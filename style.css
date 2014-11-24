@@ -1,0 +1,76 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	height: 100%;
+}
+
+.pDiv {
+	background-color: black;
+	height: 100%;
+	position: relative;
+}
+
+.cDiv {
+	background-color: white;
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#title {
+	font-size: 20px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+#date {
+	font-size: 15px;
+	padding-bottom: 50px;
+
+}
+
+#quote {
+	font-size: 15px;
+	padding-bottom: 30px;
+	font-variant: small-caps;
+	letter-spacing: .25px;
+}
+
+#input {
+	font-size: 20px;
+	
+}
+
+#listitems {
+	background-color: #E6E6E6;
+	height: 15px;
+	width: 300px;
+}
+
+#items {
+	font-size: 30px;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	font-family: garamond;
+	font-style: italic;
+}
+
+.cleaner {
+	font-size: 20px;
+	font-variant: small-caps;	
+	padding: 6px;
+	border-radius: 3px;
+	border: 1px solid #000;
+	text-decoration: none;
+	position: absolute;
+}
+
+.cleaner:hover {
+	background-color: #FFFF00;
+}
+
+.cleaner:active {
+	font-color: #FFF;
+	text-decoration: none;
+}
